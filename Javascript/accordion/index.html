@@ -7,14 +7,13 @@
 <link rel="stylesheet" href="style.css">
 
 <body>
+    <div>
+        <button id="exp-all">expand all</button>
+    </div>
     <div id="formWrapper">
         <form id="FindItems" onsubmit="return false;">
-            <h3 class="formtitle">Find Items</h3>
-            <div>
-                <button id="exp-all">expand all</button>
-            </div>
             <fieldset id="sec1">
-                <legend class="default-symbool">Enter keywords or item number</legend>
+                <div class="default-symbool">Enter keywords or item number</div>
                 <div class="sec-col collapse">
                     <div id="keywords1">
 
@@ -58,7 +57,7 @@
                 </div>
             </fieldset>
             <fieldset id="sec2">
-                <legend class="default-symbool">Search including</legend>
+                <div class="default-symbool">Search including</div>
                 <div class="sec-col collapse">
                     <div id="SearchIncluding">
 
@@ -77,8 +76,8 @@
                     </div>
                 </div>
             </fieldset>
-            <fieldset>
-                <legend class="default-symbool">Price</legend>
+            <fieldset id="sec3">
+                <div class="default-symbool">Price</div>
                 <div class="sec-col collapse">
                     <div id="Price">
 
@@ -90,8 +89,8 @@
                     </div>
                 </div>
             </fieldset>
-            <fieldset>
-                <legend class="default-symbool">Buying formats</legend>
+            <fieldset id="sec4">
+                <div class="default-symbool">Buying formats</div>
                 <div class="sec-col collapse">
                     <div id="Buying formats">
 
@@ -106,8 +105,8 @@
                     </div>
                 </div>
             </fieldset>
-            <fieldset>
-                <legend class="default-symbool">Condition</legend>
+            <fieldset id="sec5">
+                <div class="default-symbool">Condition</div>
                 <div class="sec-col collapse">
                     <div id="Condition">
 
@@ -126,8 +125,8 @@
                     </div>
                 </div>
             </fieldset>
-            <fieldset>
-                <legend class="default-symbool">Show results</legend>
+            <fieldset id="sec6">
+                <div class="default-symbool">Show results</div>
                 <div class="sec-col collapse">
                     <div id="Show results">
 
@@ -183,7 +182,7 @@
                                 target="_blank">Learn
                                 more</a>
                         </div>
-                        <legend>Shipping options</legend>
+                        <div>Shipping options</div>
                         <div>
                             <input type="checkbox" name="Free_international_shipping" id="Free_international_shipping">
                             <label for="Free_international_shipping">Free international shipping</label>
@@ -191,8 +190,8 @@
                     </div>
                 </div>
             </fieldset>
-            <fieldset>
-                <legend class="default-symbool">Location</legend>
+            <fieldset id="sec7">
+                <div class="default-symbool">Location</div>
                 <div class="sec-col collapse">
                     <div id="Location">
 
@@ -228,8 +227,8 @@
                     </div>
                 </div>
             </fieldset>
-            <fieldset>
-                <legend class="default-symbool minus">Sellers</legend>
+            <fieldset id="sec8">
+                <div class="default-symbool minus">Sellers</div>
                 <div class="sec-col">
                     <div id="Sellers">
 
@@ -260,8 +259,8 @@
                     </div>
                 </div>
             </fieldset>
-            <fieldset>
-                <legend class="default-symbool">Sort by</legend>
+            <fieldset id="sec9">
+                <div class="default-symbool">Sort by</div>
                 <div class="sec-col collapse">
                     <div id="Sort_by">
 
@@ -272,7 +271,7 @@
                         </select>
                     </div>
                     <div id="View_results">
-                        <legend>View results</legend>
+                        <div>View results</div>
                         <select id="View_results_Select">
                             <option value="0" selected>All items</option>
                             <option value="1">Picture Gallery</option>
@@ -280,7 +279,7 @@
                         </select>
                     </div>
                     <div id="Results_per_page">
-                        <legend>Results per page</legend>
+                        <div>Results per page</div>
                         <select id="Results_per_page_select">
                             <option value="0" selected>50</option>
                             <option value="1">100</option>
@@ -289,8 +288,8 @@
                     </div>
                 </div>
             </fieldset>
-            <fieldset>
-                <legend class="default-symbool">clear and search</legend>
+            <fieldset id="sec10">
+                <div class="default-symbool">clear and search</div>
                 <div class="sec-col collapse">
                     <div id="searchSection">
                         <button type="submit">Search</button>
