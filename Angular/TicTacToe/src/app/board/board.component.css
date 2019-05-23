@@ -4,6 +4,7 @@ div#app-card-wrapper {
     flex-wrap: wrap;
     width: 470px;
     margin: auto;
+    color :rgb(0, 0, 0);
 }
 #wrapper{
     text-align: center;
