@@ -19,11 +19,12 @@ button{
     border:1px solid #ccc;
     border-radius: 10px;
 }
-#wrapper{
-    margin:10px;
+#wrapper {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background: darkseagreen;
+    padding: 10px;
 }
 .img-wrapper{
     margin:20px;
