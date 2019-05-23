@@ -1,0 +1,11 @@
+<div id="wrapper">
+    <h1 *ngIf="!gameService.gameOver;">{{gameService.playerName}} turn</h1>
+  <div id="app-card-wrapper" *ngIf="!gameService.gameOver; else won">
+      <app-card *ngFor="let c of cards" [card]="c"></app-card>
+  </div>
+  <ng-template #won>
+    <h1>{{gameService.playerName}} Won!</h1>
+  </ng-template>
+</div>
+
+

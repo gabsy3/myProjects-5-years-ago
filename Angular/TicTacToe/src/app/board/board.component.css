@@ -1,0 +1,10 @@
+div#app-card-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 470px;
+    margin: auto;
+}
+#wrapper{
+    text-align: center;
+}

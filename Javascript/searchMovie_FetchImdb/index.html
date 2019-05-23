@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <form id="search-from" onsubmit="return false;">
+            <input id="search-from-input" type="text" minlength=3>
+            <input id="submitBtn" type="submit" value="submit" name="submit">
+        </form>
+        <div id="results">
+
+        </div>
+        <div id="message">
+            
+        </div>
+        <button id="btnLoadMore" onclick="fetchCall()" hidden>load more</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
