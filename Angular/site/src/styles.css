@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-    background-color: #eee;
+    background-color: #eee!important;
 }
 
 * {
