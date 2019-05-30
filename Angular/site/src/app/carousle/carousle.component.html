@@ -1,10 +1,10 @@
 <div class="carousle-wrapper text-center">
   <h3 class="title text-dark border-bottom my-1">Carousle</h3>
   <div class="content-wrapper position-relative">
-    <i class="fas fa-chevron-left position-absolute "></i>
+    <i class="fas fa-chevron-left position-absolute" (click)="prevImage()"></i>
     <div class="image-wrapper">
-      <img src="../../assets/carousle-img/news1.jpg" alt="" class="image">
+      <img src="{{image.source}}" alt="" class="image">
     </div>
-    <i class="fas fa-chevron-right position-absolute"></i>
+    <i class="fas fa-chevron-right position-absolute" (click)="nextImage()"></i>
   </div>
 </div>
