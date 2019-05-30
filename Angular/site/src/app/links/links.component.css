@@ -1,0 +1,13 @@
+h3{
+    margin:0;
+}
+.link{
+    text-decoration: none;
+    transition: 0.2s all;
+    margin:5px auto;
+    width:100%;
+}
+.link:hover{
+    opacity: 0.9;
+    width: 90%;
+}
