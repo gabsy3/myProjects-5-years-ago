@@ -11,3 +11,11 @@ h3{
     opacity: 0.9;
     width: 90%;
 }
+.links-wrapper{
+    box-shadow: 1px 1px 5px #ccc;
+    overflow: hidden;
+    margin:5px 0px;
+}
+.title{
+    background-color: #eee;
+}

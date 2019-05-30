@@ -1,4 +1,4 @@
 <div class="links-wrapper  text-center">
-  <h3 class="title text-light bg-danger">Links</h3>
+  <h3 class="title text-dark border-bottom">Links</h3>
   <a *ngFor="let link of links" href="{{link.url}}" target="_blank" class="link d-block text-light" [ngStyle]="{'background-color': link.backgroundColor}">{{link.content}}</a>
 </div>
