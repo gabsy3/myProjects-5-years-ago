@@ -1,0 +1,10 @@
+<div id="chat">
+  <form (submit)="postMessage($event)">
+    <input id="username" type="text" placeholder="username" #username>
+    <input id="post-message" type="text" placeholder="enter message..." #message>
+    <button>Submit</button>
+  </form>
+  <div class="chat-content">
+    <div *ngFor="let c of chat">{{id}} : {{c.username}} : {{c.message}}</div>
+  </div>
+</div>
