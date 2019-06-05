@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #314856;
+    background-color: #d9f0ff;
 }
 h1{
     margin:0;
@@ -23,18 +23,18 @@ h1{
     border:1px solid;
     width:350px;
     height: 400px;
-    background-color: #798881;
+    background-color: #f1f1f1;
 }
 #thumbnails{
     border:1px solid;
     width:350px;
     height: 400px;
     overflow-y: scroll;
-    background-color: #798881;
+    background-color: #f1f1f1;
 }
 .title{
     text-align: center;
-    background-color: #9d5141;
+    background-color: #75de748c;
     margin:0;
 }
 .thumbnail {
