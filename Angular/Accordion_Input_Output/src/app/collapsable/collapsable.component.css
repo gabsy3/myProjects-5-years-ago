@@ -2,40 +2,41 @@ input[type="text"]{
     margin:10px;
     width: 300px;
 }
-h3{
-    margin:0;
-    padding:0;
-}
-legend{
+.default-symbool{
     font-weight: bold;
-    padding: 5px;
-    margin:5px;
+    padding:5px;
 }
-fieldset{
-    margin: 0;
+fieldset {
     cursor: pointer;
+    border: 2px solid;
+    border-radius: 7px;
+    margin: 5px 0px;
+    background: #9c9c9c2e;
+    transition: 0.2s all;
 }
-
+fieldset:hover{
+    background: #0000002e; 
+}
 .m-left{
     margin-left:10px;
 }
 .collapse{
     display:none;
 }
-.displayAll {
-    display:block;
-}
 .default-symbool:before{
     content: "+";
-    font-weight: bold;
-    font-size: 15px;
-    background-color: burlywood;
-    padding: 5px;
+    font-size: 10px;
+    background-color: rgb(68, 90, 151);
     margin-right: 15px;
-
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    text-align: center;
 }
 .minus:before{
     content:"-";
-    font-weight: bold;
-    font-size: 15px;
+    font-size: 10px;
 }

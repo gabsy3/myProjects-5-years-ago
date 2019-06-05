@@ -2,21 +2,16 @@
     width: 1200px;
     margin:auto;
 }
-.formtitle{
-    color:#333;
-    background-color: #ccc;
-    padding:5px;
-}
-#exp-all {
-    background-color: brown;
+#exp-all{
+    background-color: rgb(68, 90, 151);
     color: #fff;
     display: block;
-    width: 10%;
+    width: auto;
     height: 30px;
-    border: none;
-    cursor: pointer;
-    margin: 5px 0px;
+    border: 1px solid;
     border-radius: 5px;
+    cursor: pointer;
+    margin:auto;
 }
 h3{
     margin:0;
