@@ -21,7 +21,7 @@ td,th{
     height: 30px;
 }
 th{
-   background-color:#9e98c7;
+    background-color: #a3ddff;
    border-bottom: 1px solid;
 }
 select{
@@ -44,7 +44,7 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: rgb(52, 99, 202);
+    background-color: #488ebd;
     color:#fff;
 }
 #productId{
