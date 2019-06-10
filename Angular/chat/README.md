@@ -1,4 +1,4 @@
-# Chat
+# Chat -- not completed need to implement login and signup page and save the data into mongoDB
 
 <img src="component.JPG">
 
