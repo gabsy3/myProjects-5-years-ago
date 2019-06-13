@@ -1,0 +1,40 @@
+.board-img{
+    height:75%;
+}
+.board-title{
+    padding:3% 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #86acce;
+    color:#fff;
+}
+.board-controls{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.board-add-btn{
+    border:none;
+    width:40%;
+    background-color: #42515f;
+    color:#fff;
+    cursor: pointer;
+}
+.board-price{
+    width:50%;
+    direction: rtl;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ced5df;
+}
+.board-number-of-items{
+    width:10%;
+    background-color: #7f8388;
+    color:#fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
